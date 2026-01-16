@@ -8,7 +8,7 @@ print("--- First 5 rows ---")
 print(df.head()) # Default is 5
 
 print("\n--- Data Types ---")
-print(df.dtypes)
+print(df.dtypes) 
 
 # --- Part 2: Data Cleaning and Indexing ---
 
@@ -83,3 +83,4 @@ print(product_profit)
 print("\n--- Monthly Total Sales ---")
 monthly_sales = df['Sales'].resample('ME').sum()
 print(monthly_sales)
+# Finished
