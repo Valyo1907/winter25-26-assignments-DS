@@ -83,4 +83,3 @@ print(product_profit)
 print("\n--- Monthly Total Sales ---")
 monthly_sales = df['Sales'].resample('ME').sum()
 print(monthly_sales)
-# Finished
